@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Calculator</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2 id="header">Calculator</h2>
     <div class="container">
-        <div class="display">
-            <h1 id="value">0</h1>
-        </div>
-        <button id="clearBtn" class="largeBtn">CLEAR</button>
-        <button id="deleteBtn" class="largeBtn">DELETE</button>
-        <button class="smallBtn">7</button>
-        <button class="smallBtn">8</button>
-        <button class="smallBtn">9</button>
-        <button class="smallBtn">÷</button>
-        <button class="smallBtn">4</button>
-        <button class="smallBtn">5</button>
-        <button class="smallBtn">6</button>
-        <button class="smallBtn">×</button>
-        <button class="smallBtn">1</button>
-        <button class="smallBtn">2</button>
-        <button class="smallBtn">3</button>
-        <button class="smallBtn">-</button>
-        <button class="smallBtn">.</button>
-        <button class="smallBtn">0</button>
-        <button class="smallBtn">=</button>
-        <button class="smallBtn">+</button>
+      <div class="display">
+        <h3 class="previousValue"></h3>
+        <h1 class="currentValue">0</h1>
+      </div>
+      <button id="clearBtn" class="largeBtn clear">CLEAR</button>
+      <button id="deleteBtn" class="largeBtn delete">DELETE</button>
+      <button class="smallBtn number">7</button>
+      <button class="smallBtn number">8</button>
+      <button class="smallBtn number">9</button>
+      <button class="smallBtn operator">/</button>
+      <button class="smallBtn number">4</button>
+      <button class="smallBtn number">5</button>
+      <button class="smallBtn number">6</button>
+      <button class="smallBtn operator">*</button>
+      <button class="smallBtn number">1</button>
+      <button class="smallBtn number">2</button>
+      <button class="smallBtn number">3</button>
+      <button class="smallBtn operator">-</button>
+      <button class="smallBtn decimal">.</button>
+      <button class="smallBtn number">0</button>
+      <button class="smallBtn IsEqualTo">=</button>
+      <button class="smallBtn operator">+</button>
     </div>
     <div id="footer">
-        <h3>Copyright &#169; 2022 developerduggal</h3>
+      <h3>Copyright &#169; 2022 developerduggal</h3>
     </div>
-</body>
+    <script src="/app.js"></script>
+  </body>
 </html>
